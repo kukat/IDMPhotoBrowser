@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license       = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author             = { "Alex Yao Cheng" => "kukathe@gmail.com", "Ideais Mobile" => "mobile@ideais.com.br" }
   s.platform      = :ios, '7.0'
-  s.source        = { :git => "https://github.com/kukat/IDMPhotoBrowser.git", :tag => "1.3.2" }
+  s.source        = { :git => "https://github.com/kukat/IDMPhotoBrowser.git", :tag => "1.4.0" }
   s.source_files  = 'Classes/*.{h,m}'
   s.resources     = 'Classes/IDMPhotoBrowser.bundle', 'Classes/IDMPBLocalizations.bundle'
   s.frameworks    = 'MessageUI', 'QuartzCore', 'SystemConfiguration', 'MobileCoreServices', 'Security'
